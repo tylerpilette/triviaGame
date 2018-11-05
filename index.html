@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <link href="assets\css\style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script type = "text/javascript" src="assets\javascript\app.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Random Trivia Game</h1>
+    <div id="wrapper">
+        <div id="display">60</div>
+    </div>
+    <form id="trivia" name="trivia">
+        <p>What instrument did Ringo Starr play?</p>
+        <input id="textbox" type="text" name="question1">
+
+        <p>Bangkok is the capital of what country?</p>
+        <input id="textbox" type="text" name="question2">
+
+        <p>2(9+2)/11=?</p>
+        <input id="textbox" type="text" name="question3">
+
+        <p>Lions and Tigers and _____</p>
+        <input id="textbox" type="text" name="question4">
+
+        <p>Which player has the most superbowl rings?</p>
+        <input id="textbox" type="text" name="question5">
+
+        <p>Arachniphobia is the fear of what animals?</p>
+        <input id="textbox" type="text" name="question6">
+
+        <p>In the song "Gin and Juice" what is Snoop Dogg smoking on?</p>
+        <input id="textbox" type="text" name="question7">
+
+        <p>In which city what JFK assassinated?</p>
+        <input id="textbox" type="text" name="question8">
+
+        <p>1+2-3x4/6=?</p>
+        <input id="textbox" type="text" name="question9">
+
+        <p>Who shot Mr. Burns?</p>
+        <input id="textbox" type="text" name="question10">
+
+        <p><input id="button" type="button" value="Done!" onclick="check();"></p>
+    </form>
+
+    <div id="afterSubmit">
+        <p id="message"></p>    
+        <p id="numberCorrect"></p>
+        <img id="pictures">
+    </div>
+</body>
+
+</html>
